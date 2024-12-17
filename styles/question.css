@@ -1,0 +1,29 @@
+.questions{
+    padding: 155px 0 108px 0;
+}
+
+.questions .section__h2{
+    margin-bottom: 60px;
+}
+
+.question-h3{
+    text-transform: uppercase;
+    color: var(--color-accent);
+    margin-bottom: 40px;
+}
+
+.question-p{
+    margin-bottom: 40px;
+    color: var(--color-gray);
+    max-width: 730px;
+}
+
+@media screen and (max-width: 1280px){
+    .questions{
+        padding: 150px 15px 110px;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+}

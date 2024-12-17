@@ -1,0 +1,45 @@
+.button-form{
+    background-color: var(--color-accent);
+    color: #fafafa;
+    padding: 12px 24px;
+    border: 0;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+}
+
+.modal{
+    border-radius: 10px;
+}
+
+label{
+    color: #000000;
+    position: absolute;
+    top: 12px;
+    left: 48px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+input, textarea, select{
+    background: var(--color-white);
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;
+    padding: 27px 48px 12px;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+}
+.field {
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.field img{
+    position: absolute;
+    margin: 17px;
+}

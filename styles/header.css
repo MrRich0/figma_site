@@ -1,0 +1,56 @@
+.header{
+    min-height: 740px;
+    background-image: url(../images/first-scree-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header__title{
+    padding-top: 20px;
+    margin-bottom: 112px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.header__title-logo{
+    width: 60px;
+    height: 60px;
+}
+
+.header__title-menu-burger{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.header__h1{
+    max-width: 734px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 4rem;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin: 0 auto 20px;
+    line-height: 95px;
+    color: var(--color-white);
+}
+
+.header__h4{
+    max-width: 734px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 1.125rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+    color: var(--color-white);
+}
+
+@media screen and (max-width: 1280px){
+    .header__title{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}

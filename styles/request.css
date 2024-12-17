@@ -1,0 +1,68 @@
+.request{
+    background-color: var(--color-accent);
+    padding-top: 29px;
+    padding-bottom: 41px;
+}
+
+.request__flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.request__left{
+
+}
+
+.request__left-h4{
+    color: var(--color-white);
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    font-size: 3rem;
+    line-height: 71px;
+    margin-bottom: 11px;
+    -webkit-text-stroke: 1px black; /* Толщина и цвет обводки */
+}
+
+.request__left-h5{
+    color: var(--color-white);
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    font-size: 1.5rem;
+}
+
+.request__right{
+    margin-top: 23px;
+    background-color: var(--color-white);
+    font-family: "Oswald", sans-serif;
+    width: 175px;
+    display: flex;
+    align-items: center;
+    padding: 14px 30px;
+    gap: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.875rem;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    color: #000000;
+}
+
+.request__right-img{
+
+}
+
+@media screen and (max-width: 1280px){
+    .request{
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .request__flex{
+        flex-direction: column;
+    }
+}
+
